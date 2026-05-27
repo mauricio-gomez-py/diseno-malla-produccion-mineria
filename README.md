@@ -2,6 +2,16 @@
 
 Implementación en Python del diseño empírico de mallas de perforación para minería a cielo abierto, utilizando los métodos de **Pearse-Borquéz** y **Chiappetta**.
 
+## Propuesta de valor
+
+El diseño de mallas de perforación se realiza tradicionalmente de forma manual con fórmulas en Excel o calculadoras, requiriendo conocimiento especializado en geomecánica y tronadura. Este proyecto automatiza ese proceso y agrega tres ventajas concretas:
+
+- **Cálculo instantáneo**: ingresando las propiedades de la roca y el explosivo, se obtienen todos los parámetros de diseño (burden, espaciamiento, taco, carga) en segundos, sin riesgo de error manual.
+- **Visualización 3D interactiva**: permite ver la distribución real de los pozos y sus zonas de carga en el espacio, algo que en el flujo tradicional simplemente no existe — se trabaja solo con tablas y planos 2D.
+- **Reproducibilidad y trazabilidad**: cualquier cambio en los parámetros de entrada se propaga automáticamente a todos los resultados, y queda registro de cómo se calculó cada diseño.
+
+**Usuario objetivo**: ingenieros de minas o especialistas en tronadura que necesitan evaluar múltiples escenarios rápidamente (distintos diámetros de pozo, densidades de explosivo, geometrías de malla) sin rehacerlo todo desde cero cada vez.
+
 ## Descripción
 
 El notebook calcula los parámetros geométricos y de carga de una malla de perforación a partir de las propiedades del macizo rocoso y del explosivo, y genera una visualización 3D interactiva de los pozos con sus zonas de carga.
