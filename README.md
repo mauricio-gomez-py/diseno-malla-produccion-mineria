@@ -2,6 +2,8 @@
 
 Implementación en Python del diseño empírico de mallas de perforación para minería a cielo abierto, utilizando los métodos de **Pearse-Borquéz** y **Chiappetta**.
 
+<img width="1135" height="562" alt="image" src="https://github.com/user-attachments/assets/0ed45b44-d764-4671-a392-09b73dc216b4" />
+
 ## Propuesta de valor
 
 El diseño de mallas de perforación se realiza tradicionalmente de forma manual con fórmulas en Excel o calculadoras, requiriendo conocimiento especializado en geomecánica y tronadura. Este proyecto automatiza ese proceso y agrega tres ventajas concretas:
